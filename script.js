@@ -4,7 +4,7 @@ const $ = require('jquery');
 
 function display(data) {
   let displayedAnimals = "";
-  for (var prop in data) {
+  for (let prop in data) {
     displayedAnimals += `<div class="animalInfo">`;
     displayedAnimals += `<h2>${data[prop].animal}</h2>`;
     displayedAnimals += `<img src="${data[prop].image}">`;
@@ -18,7 +18,7 @@ function display(data) {
 let getAnimals = function() {
   return new Promise((resolve, reject) => {
     $.ajax({
-            url:"https://vivid-heat-6487.firebaseio.com/animals.json",//.json tells firebase to send back in json
+            url:"https://vivid-heat-6487.firebaseio.com/animals/.json",//.json tells firebase to send back in json
             method: "GET",
           }).done(function(data) {
               resolve(data);
