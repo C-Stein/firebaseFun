@@ -1,5 +1,9 @@
 .animalInfo {
   display: inline-block;
   padding: 5px;
-  border: 1px solid mist;
+  border: 1px solid black;
+}
+
+.hidden {
+  display: none;
 }

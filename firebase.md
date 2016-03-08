@@ -15,4 +15,4 @@ To Add to Firebase...
   i. use the jQuery, Luke.
   ii. Don't bother with form tags, just trust me
 7. Write a new ajax call with a "post" method, don't forget to include "data." You will post to the same url as before.
-8. 
+8.celebrate 
