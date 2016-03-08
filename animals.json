@@ -1,0 +1,19 @@
+{
+    "animals": [
+        {
+            "animal": "Giraffe",
+            "characteristic": "Long Neck",
+            "image": "http://www.carolina.com/images/teacher-resources/curriculum/giraffe.jpg"
+        },
+        {
+            "animal": "Elephant",
+            "characteristic": "Long Trunk",
+            "image": "https://www.bforball.com/image/categ/elephant.png"
+        },
+        {
+            "animal": "Dog",
+            "characteristic": "Woof Woof",
+            "image": "http://cdn2-www.dogtime.com/assets/uploads/2009/05/file_1563_LAB-DOG-NAMES.jpg"
+        }
+    ]
+}
